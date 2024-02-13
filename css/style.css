@@ -3,15 +3,19 @@
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
+	background-image: "images/bg.jpg";
 
+}
+
+.but:hover {
+	background-color: red;
 }
 
 .carousel-item img{
 	width: 100%;
 	height: 93vh;
-
-
 }
+
 
 .may {
 	background-color: #132839;
@@ -37,10 +41,18 @@
 
 }
 
-.my-service img{
+.my-service .card:hover {
+	background-color: #132839;
+	transition: all 0.2S ease-in-out;
+	color: white;
+}
+
+
+
+/* .my-service img{
 	width: 100%;
 	height: 100%;
-}
+} */
 
 .chekcout-my-profile{
 	background: #a6dcef;
