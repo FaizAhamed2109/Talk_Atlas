@@ -7,8 +7,14 @@
 
 }
 
-.but:hover {
-	background-color: red;
+/* .buti:hover {
+	background: red;
+	color: green;
+} */
+
+.but a:hover {
+	font-size: 24px;
+	color: red;
 }
 
 .carousel-item img{
@@ -21,6 +27,7 @@
 	background-image: linear-gradient(to right, #132839 , #0a2338);
 	width: 100%;
 	background: cover;
+	
 }
 
 .may {
