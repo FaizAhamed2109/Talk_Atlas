@@ -16,6 +16,12 @@
 	height: 93vh;
 }
 
+.backg{
+	/* background-color: #132839; */
+	background-image: linear-gradient(to right, #132839 , #0a2338);
+	width: 100%;
+	background: cover;
+}
 
 .may {
 	background-color: #132839;
